@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#CC397B;
+}
+
+.navbar-brand{
+	color:#A1E8A1!important;
+}
+.navbar-nav{
+	color:#A1E8A1!important;
+}
+.me-lg-6{
+  margin-right: 20rem !important;
+}
+.ms-lg-6{
+  margin-left: 20rem !important;
+}
+
+.navbar-nav .nav-link.active{
+	color:#A1E8A1!important;
+}
+
+#nav-bg{
+	background-color:#494949!important;
+	color:#A1E8A1!important;
+}
+
+navbar{
+	font-size:21px;
+}
+
+bg-navbar{
+	background-color:#494949!important;
+	background-size:fill;
+}
