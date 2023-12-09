@@ -4,3 +4,18 @@
 body{
 	background-color:#CC397B;
 }
+
+.me-lg-6{
+  margin-right: 20rem !important;
+}
+.ms-lg-6{
+  margin-left: 20rem !important;
+}
+
+navbar, navbar-brand{
+	font-size:21px;
+}
+
+bg-navbar{
+	background-color:#494949!important;
+}
