@@ -30,6 +30,33 @@ body{
 	color:#A1E8A1!important;
 }
 
+.button-container{
+	display:flex;
+	justify-content:space-around;
+}
+
+.button-container button{
+	width:25vw;
+	height:auto;
+	background-color:#494949;
+	border-color:#A1E8A1;
+}
+
+.button-container button:hover {
+	background-color: #6b6b6b;
+	border-color:#A1E8A1;
+}
+
+.senior-portfolios{
+	display:none;
+}
+.junior-portfolios{
+	display:none;
+}
+.sophomore-portfolios{
+	display:none;
+}
+
 #nav-bg{
 	background-color:#494949!important;
 	color:#A1E8A1!important;
