@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#CC397B;
+	width:100%;
+}
+
+.heading-text{
+	color:#A1E8A1!important;
+	text-align:center;
+	margin:50px;
+}
+
+.navbar-brand{
+	color:#A1E8A1!important;
+}
+.navbar-nav{
+	color:#A1E8A1!important;
+	width:100%;
+}
+.me-lg-6{
+  margin-right: 20rem !important;
+}
+.ms-lg-6{
+  margin-left: 20rem !important;
+}
+
+.navbar-nav .nav-link.active{
+	color:#A1E8A1!important;
+}
+
+.button-container{
+	display:flex;
+	justify-content:space-around;
+	margin-bottom:1em;
+}
+
+.button-container button{
+	width:25vw;
+	height:auto;
+	background-color:#494949;
+	border-color:#A1E8A1;
+}
+
+.button-container button:hover {
+	background-color: #6b6b6b;
+	border-color:#A1E8A1;
+}
+
+.senior-portfolios{
+	display:none;
+}
+.junior-portfolios{
+	display:none;
+}
+.sophomore-portfolios{
+	display:none;
+}
+
+.portolio-container{
+	background-color:black;
+	border-color:#A1E8A1;
+	border-width:2px;
+}
+
+.portfolio-list{
+	text-align:center;
+}
+
+
+.portfolio-list a:hover {
+    border: 1px solid #007bff; /* Add border when hovering */
+    padding: 5px; /* Optional: Add padding to make the border more visible */
+}
+
+.senior-portfolios,.junior-portfolios,.sophomore-portfolios{
+	background-color:black;
+	border-radius:15px;
+	padding:1em;
+}
+
+.portfolio-list ul {
+	list-style: none; /* Removes bullet points */
+	padding: 0; /* Removes default padding */
+	color: white;
+}
+
+.portfolio-list a {
+	text-decoration: none; /* Removes underline */
+	color: inherit; /* Inherits color from parent */
+	
+}
+
+
+#nav-bg{
+	background-color:#494949!important;
+	color:#A1E8A1!important;
+}
+
+.student-item li:hover {
+    border: 2px solid #A1E8A1; /* Adds border when hovering */
+    padding: 5px; /* Optional: Add padding to make the border more visible */
+	border-radius:5px;
+	animation: changeColor 5s infinite; /*calls the changeColor animation from below keyframe*/
+	margin:0;
+	padding:0;
+}
+
+nav{
+	width:100%;
+}
+
+navbar{
+	font-size:21px;
+}
+
+bg-navbar{
+	background-color:#494949!important;
+	background-size:fill;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #A1E8A1;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: #A1E8A1;
+    }
+}
+
+
+
+
+/*ANIMATIONS that i borrowed from
+
+@keyframes changeColor {
+    0% {
+        color: pink;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: pink;
+    }
+}
+
+
+ The code from lines 2-4 puts the title of the website in the center 
+.title {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 48px;
+    animation: changeColor 5s infinite;
+    sets length of animation, makes repeat and starts
+}
+
+*/
